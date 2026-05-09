@@ -5,24 +5,20 @@ export default function Home() {
       <section style={{ background: 'linear-gradient(135deg, #5c31d6 0%, #7c3aed 100%)', color: '#fff', padding: '80px 24px', textAlign: 'center' }}>
         <div style={{ maxWidth: 640, margin: '0 auto' }}>
           <div style={{ fontSize: 48, fontWeight: 800, letterSpacing: -1, marginBottom: 16 }}>QuoteJini</div>
-          <p style={{ fontSize: 22, fontWeight: 400, opacity: 0.9, marginBottom: 40, lineHeight: 1.5 }}>
+          <p style={{ fontSize: 22, fontWeight: 400, opacity: 0.9, marginBottom: 48, lineHeight: 1.5 }}>
             AI-powered estimating for contractors.<br />Create professional quotes in seconds.
           </p>
-          <a
-            href="https://apps.apple.com/app/id6767010044"
-            style={{
-              display: 'inline-block',
-              background: '#fff',
-              color: '#5c31d6',
-              fontWeight: 700,
-              fontSize: 16,
-              padding: '14px 32px',
-              borderRadius: 12,
-              textDecoration: 'none',
-            }}
-          >
-            Download on the App Store
-          </a>
+          {/* Coming Soon banner */}
+          <div style={{
+            display: 'inline-block',
+            background: 'rgba(255,255,255,0.15)',
+            border: '2px solid rgba(255,255,255,0.5)',
+            borderRadius: 16,
+            padding: '20px 48px',
+          }}>
+            <div style={{ fontSize: 13, fontWeight: 700, letterSpacing: 3, textTransform: 'uppercase', opacity: 0.8, marginBottom: 6 }}>Coming Soon</div>
+            <div style={{ fontSize: 22, fontWeight: 700 }}>Available on the App Store</div>
+          </div>
         </div>
       </section>
 
